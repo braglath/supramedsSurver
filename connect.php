@@ -14,6 +14,6 @@ $table = "users";
 if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }else{
-        echo "DB Connected";
+        // echo "DB Connected";
     }
 ?>
